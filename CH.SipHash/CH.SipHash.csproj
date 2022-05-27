@@ -5,19 +5,15 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Version>1.0.2</Version>
     <PackageId>CH.SipHash.Core</PackageId>
+    <Version>1.0.2</Version>
     <Authors>Clifford Hammerschmidt</Authors>
     <Description>C# implementation of SipHash (using unsafe and aggressive inline for speed)</Description>
     <RepositoryUrl>https://github.com/Nickelony/ch-siphash-core</RepositoryUrl>
