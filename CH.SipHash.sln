@@ -1,15 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH.SipHash", "CH.SipHash\CH.SipHash.csproj", "{74FB40C2-F45F-441B-97EF-A3E8B709C58A}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH.SipHash", "CH.SipHash\CH.SipHash.csproj", "{74FB40C2-F45F-441B-97EF-A3E8B709C58A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH.SipHash.Test", "CH.SipHash.Test\CH.SipHash.Test.csproj", "{F1850EB1-1F4F-4020-A3F1-30128016356F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{36B6C532-47CE-4460-A8C9-F7704F7544DC}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH.SipHash.Test", "CH.SipHash.Test\CH.SipHash.Test.csproj", "{F1850EB1-1F4F-4020-A3F1-30128016356F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +23,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ED2DC06-1E6A-45F1-881B-78DA2E5B64DE}
 	EndGlobalSection
 EndGlobal
